@@ -1,0 +1,19 @@
+
+backend 
+
+pasos para levantar un servidor 
+
+
+entorno node 
+*******************
+npm init -y
+
+
+intalar express y doten (variables de entorno )
+
+npm i express dotenv
+
+
+npm install cors
+
+npm i mongoose
