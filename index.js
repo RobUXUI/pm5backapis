@@ -5,7 +5,7 @@ const userRouter = require('./routes/userRoute')
 const cors = require('cors')
 require('dotenv').config();
 
-// Traemos la conexion de la abse de dtaos al servidor
+// Traemos la conexion de la abse de datos al servidor
 require('./config/database');
 
 // Instaciamiento de express
