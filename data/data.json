@@ -1,130 +1,450 @@
-[
-    {
-      "sku": "333123",
-      "name": "Comfort Walk",
-      "price": 4999,
-      "image": "https://images.unsplash.com/photo-1659785568847-2c9581fe7d98?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "details": {
-        "typeProduct": "Running Shoes",
-        "material": "Mesh and Synthetic",
-        "weight": 0.5,
-        "color": {
-          "red": "FF0000",
-          "blue": "0000FF"
-        }
-      },
-      "stock": 100
-    },
-    {
-      "sku": "321456",
-      "name": "Fashion Sneakers",
-      "price": 7999,
-      "image": "https://images.unsplash.com/photo-1659785568869-aa061a0f8e87?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "details": {
-        "typeProduct": "Casual Shoes",
-        "material": "Leather",
-        "weight": 0.6,
-        "color": {
-          "red": "FF4500",
-          "blue": "4169E1"
-        }
-      },
-      "stock": 50
-    },
-    {
-      "sku": "444789",
-      "name": "Trail Blazer",
-      "price": 8999,
-      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "details": {
-        "typeProduct": "Hiking Boots",
-        "material": "Waterproof Leather",
-        "weight": 0.8,
-        "color": {
-          "red": "8B0000",
-          "blue": "4682B4"
-        }
-      },
-      "stock": 75
-    },
-    {
-      "sku": "222012",
-      "name": "Gym Performer",
-      "price": 6999,
-      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "details": {
-        "typeProduct": "Athletic Shoes",
-        "material": "Breathable Knit",
-        "weight": 0.4,
-        "color": {
-          "red": "DC143C",
-          "blue": "1E90FF"
-        }
-      },
-      "stock": 120
-    },
-    {
-      "sku": "333345",
-      "name": "Classic Canvas",
-      "price": 3999,
-      "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "details": {
-        "typeProduct": "Canvas Sneakers",
-        "material": "Cotton",
-        "weight": 0.4,
-        "color": {
-          "red": "FF6347",
-          "blue": "6495ED"
-        }
-      },
-      "stock": 90
-    },
-     {
-        "sku": "442123",
-        "name": "Comfort Walk",
-        "price": 4999,
-        "image": "https://images.unsplash.com/photo-1473010350295-2c82192ebd8e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "details": {
-          "typeProduct": "Running Shoes",
-          "material": "Mesh and Synthetic",
-          "weight": 0.5,
-          "color": {
-            "red": "FF0000",
-            "blue": "0000FF"
-          }
-        },
-        "stock": 100
-      },
-      {
-        "sku": "989456",
-        "name": "Fashion Sneakers",
-        "price": 7999,
-        "image": "https://images.unsplash.com/photo-1570464197285-9949814674a7?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "details": {
-          "typeProduct": "Casual Shoes",
-          "material": "Leather",
-          "weight": 0.6,
-          "color": {
-            "red": "FF4500",
-            "blue": "4169E1"
-          }
-        },
-        "stock": 50
-      },
-      {
-        "sku": "933789",
-        "name": "Trail Blazer",
-        "price": 8999,
-        "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "details": {
-          "typeProduct": "Hiking Boots",
-          "material": "Waterproof Leather",
-          "weight": 0.8,
-          "color": {
-            "red": "8B0000",
-            "blue": "4682B4"
-          }
-        },
-        "stock": 75
-    }
-  ]
+[{
+  "_id": {
+    "$oid": "65b9a0bfa9e98938db8a2187"
+  },
+  "nombre": "Converse1",
+  "genero": "hombre",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-M9160-1_7a554e09-63ab-49d8-965d-1e0b25766c10_1800x.jpg?v=1674490773"
+},
+{
+  "_id": {
+    "$oid": "65b9a394a9e98938db8a2189"
+  },
+  "nombre": "Converse2",
+  "genero": "hombre",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-M7650-3_1800x.jpg?v=1674491145"
+},
+{
+  "_id": {
+    "$oid": "65bb969fbdeefee1a5dc04b9"
+  },
+  "nombre": "Converse3",
+  "genero": "hombre",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-A01607C-4_1800x.jpg?v=1677512847"
+},
+{
+  "_id": {
+    "$oid": "65bb96adbdeefee1a5dc04ba"
+  },
+  "nombre": "Converse4",
+  "genero": "hombre",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-A01608C-8_1800x.jpg?v=1677512970"
+},
+{
+  "_id": {
+    "$oid": "65bb96b7bdeefee1a5dc04bb"
+  },
+  "nombre": "Converse5",
+  "genero": "hombre",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-A04144C-1_1800x.jpg?v=1687207850"
+},
+{
+  "_id": {
+    "$oid": "65bb97c6bdeefee1a5dc04bc"
+  },
+  "nombre": "Adidas1",
+  "genero": "hombre",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-IF6665-1_1800x.jpg?v=1706714807"
+},
+{
+  "_id": {
+    "$oid": "65bb97d6bdeefee1a5dc04bd"
+  },
+  "nombre": "Adidas2",
+  "genero": "hombre",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-GY5543-1_1800x.jpg?v=1692381289"
+},
+{
+  "_id": {
+    "$oid": "65bb97efbdeefee1a5dc04be"
+  },
+  "nombre": "Adidas3",
+  "genero": "hombre",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-HP7863-1_1800x.jpg?v=1675355599"
+},
+{
+  "_id": {
+    "$oid": "65bb97fbbdeefee1a5dc04bf"
+  },
+  "nombre": "Adidas4",
+  "genero": "hombre",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-GZ9512-7_grande.jpg?v=1675354969"
+},
+{
+  "_id": {
+    "$oid": "65bb9807bdeefee1a5dc04c0"
+  },
+  "nombre": "Adidas5",
+  "genero": "hombre",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-GZ9512-1_1800x.jpg?v=1675354910"
+},
+{
+  "_id": {
+    "$oid": "65bb982cbdeefee1a5dc04c1"
+  },
+  "nombre": "Newbalance1",
+  "genero": "hombre",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-cm997hha-2_grande.jpg?v=1701115130"
+},
+{
+  "_id": {
+    "$oid": "65bb983bbdeefee1a5dc04c2"
+  },
+  "nombre": "Newbalance2",
+  "genero": "hombre",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-NM1010CL-5_1800x.jpg?v=1692649012"
+},
+{
+  "_id": {
+    "$oid": "65bb984fbdeefee1a5dc04c3"
+  },
+  "nombre": "Newbalance3",
+  "genero": "hombre",
+  "valor": 72990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-MR530QB-4_1800x.jpg?v=1706714092"
+},
+{
+  "_id": {
+    "$oid": "65bb985abdeefee1a5dc04c4"
+  },
+  "nombre": "Newbalance4",
+  "genero": "hombre",
+  "valor": 72990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-MR530QA-5_1800x.jpg?v=1706714094"
+},
+{
+  "_id": {
+    "$oid": "65bb986dbdeefee1a5dc04c5"
+  },
+  "nombre": "Newbalance5",
+  "genero": "hombre",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-BB650RCF-1_grande.jpg?v=1682452255"
+},
+{
+  "_id": {
+    "$oid": "65bb9885bdeefee1a5dc04c6"
+  },
+  "nombre": "Puma1",
+  "genero": "hombre",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-38928901-1_1800x.jpg?v=1688677491"
+},
+{
+  "_id": {
+    "$oid": "65bb988fbdeefee1a5dc04c7"
+  },
+  "nombre": "Puma2",
+  "genero": "hombre",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-38689701_1800x.jpg?v=1674757369"
+},
+{
+  "_id": {
+    "$oid": "65bb9897bdeefee1a5dc04c8"
+  },
+  "nombre": "Puma3",
+  "genero": "hombre",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-38575401-5_1800x.jpg?v=1674237452"
+},
+{
+  "_id": {
+    "$oid": "65bb98a1bdeefee1a5dc04c9"
+  },
+  "nombre": "Puma4",
+  "genero": "hombre",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-38310713-5_1800x.jpg?v=1674499531"
+},
+{
+  "_id": {
+    "$oid": "65bb98aabdeefee1a5dc04ca"
+  },
+  "nombre": "Puma5",
+  "genero": "hombre",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-39231701-1_1800x.jpg?v=1692205254"
+},
+{
+  "_id": {
+    "$oid": "65bb98d8bdeefee1a5dc04cb"
+  },
+  "nombre": "Vans1",
+  "genero": "hombre",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-VN0A5KR5OS7-4_1800x.jpg?v=1646248169"
+},
+{
+  "_id": {
+    "$oid": "65bb9909bdeefee1a5dc04cd"
+  },
+  "nombre": "Vans2",
+  "genero": "hombre",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-m0d5ib8c-1-4a5a8fea-e5e8-43fd-a68c-8bfc8b7e23b4_53741297-d5d7-430b-8514-66aeacb18a15_1800x.jpg?v=1630102884"
+},
+{
+  "_id": {
+    "$oid": "65bb9938bdeefee1a5dc04ce"
+  },
+  "nombre": "Vans3",
+  "genero": "hombre",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/VN0009QCNWD-5_1800x.jpg?v=1689799125"
+},
+{
+  "_id": {
+    "$oid": "65bb994bbdeefee1a5dc04cf"
+  },
+  "nombre": "Vans4",
+  "genero": "hombre",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/VN000CP5BDU_1_1800x.jpg?v=1701350326"
+},
+{
+  "_id": {
+    "$oid": "65bb995cbdeefee1a5dc04d0"
+  },
+  "nombre": "Vans5",
+  "genero": "hombre",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-vn0a4uuk4w7-1-c639f3f9-8bfb-48c1-92d7-39fdc0d0d4f5_1800x.jpg?v=1628228068"
+},
+{
+  "_id": {
+    "$oid": "65bb9978bdeefee1a5dc04d1"
+  },
+  "nombre": "Converse1",
+  "genero": "mujer",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-561676c-1-73ac1780-c0f0-4d99-9022-a3f40f5d7abf_1800x.jpg?v=1627879376"
+},
+{
+  "_id": {
+    "$oid": "65bb9983bdeefee1a5dc04d2"
+  },
+  "nombre": "Converse2",
+  "genero": "mujer",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-561675c-1-cad320e2-6627-4220-8cf0-d80b09d1840b_74b65377-5d2f-46e6-ac98-e5b1242c1f69_1800x.jpg?v=1630070130"
+},
+{
+  "_id": {
+    "$oid": "65bb998dbdeefee1a5dc04d3"
+  },
+  "nombre": "Converse3",
+  "genero": "mujer",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-168816c-1-70c26ba7-21ea-4ab2-8e6f-ed4a092eb328_d67b40f9-a1ba-4a51-b4e2-34ac149b3696_1800x.jpg?v=1630119683"
+},
+{
+  "_id": {
+    "$oid": "65bb99a0bdeefee1a5dc04d4"
+  },
+  "nombre": "Converse4",
+  "genero": "mujer",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-168817c-1-38687257-ee69-4363-8f14-b495d0d597bd_b3907167-853e-4fa0-ae28-99fb532249f8_1800x.jpg?v=1630070243"
+},
+{
+  "_id": {
+    "$oid": "65bb99cdbdeefee1a5dc04d5"
+  },
+  "nombre": "Converse5",
+  "genero": "mujer",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-A05714C-12_grande.jpg?v=1701345285"
+},
+{
+  "_id": {
+    "$oid": "65bb99dcbdeefee1a5dc04d6"
+  },
+  "nombre": "Adidas1",
+  "genero": "mujer",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-GX1728-1_1800x.jpg?v=1675354640"
+},
+{
+  "_id": {
+    "$oid": "65bb99e9bdeefee1a5dc04d7"
+  },
+  "nombre": "Adidas2",
+  "genero": "mujer",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-HP2673-1_1800x.jpg?v=1693327727"
+},
+{
+  "_id": {
+    "$oid": "65bb99fdbdeefee1a5dc04d8"
+  },
+  "nombre": "Adidas3",
+  "genero": "mujer",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/IE1092_1_FOOTWEAR_Photography_SideLateralCenterView_white_grande.jpg?v=1703255327"
+},
+{
+  "_id": {
+    "$oid": "65bb9a11bdeefee1a5dc04d9"
+  },
+  "nombre": "Adidas4",
+  "genero": "mujer",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/IE1093_1_FOOTWEAR_Photography_SideLateralCenterView_white_1800x.jpg?v=1703255205"
+},
+{
+  "_id": {
+    "$oid": "65bb9a32bdeefee1a5dc04da"
+  },
+  "nombre": "Adidas5",
+  "genero": "mujer",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-IE3601-1_1800x.jpg?v=1706714814"
+},
+{
+  "_id": {
+    "$oid": "65bb9a44bdeefee1a5dc04db"
+  },
+  "nombre": "Newbalance1",
+  "genero": "mujer",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-cw997hrt-1_1800x.jpg?v=1667850554"
+},
+{
+  "_id": {
+    "$oid": "65bb9a7fbdeefee1a5dc04dc"
+  },
+  "nombre": "Newbalance2",
+  "genero": "mujer",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-CW997HWC-1_1800x.jpg?v=1687984248"
+},
+{
+  "_id": {
+    "$oid": "65bb9a8fbdeefee1a5dc04dd"
+  },
+  "nombre": "Newbalance3",
+  "genero": "mujer",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-cw997hht-1_1800x.jpg?v=1700575850"
+},
+{
+  "_id": {
+    "$oid": "65bb9a9dbdeefee1a5dc04de"
+  },
+  "nombre": "Newbalance4",
+  "genero": "mujer",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-BBW550DB-1_1800x.jpg?v=1681306040"
+},
+{
+  "_id": {
+    "$oid": "65bb9aabbdeefee1a5dc04df"
+  },
+  "nombre": "Newbalance5",
+  "genero": "mujer",
+  "valor": 55990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-BBW550DP-4_1800x.jpg?v=1692649013"
+},
+{
+  "_id": {
+    "$oid": "65bb9ababdeefee1a5dc04e0"
+  },
+  "nombre": "Puma1",
+  "genero": "mujer",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-39233802-1_1800x.jpg?v=1695838856"
+},
+{
+  "_id": {
+    "$oid": "65bb9ac9bdeefee1a5dc04e1"
+  },
+  "nombre": "Puma2",
+  "genero": "mujer",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-39232808-1_1800x.png?v=1695838967"
+},
+{
+  "_id": {
+    "$oid": "65bb9aedbdeefee1a5dc04e2"
+  },
+  "nombre": "Puma3",
+  "genero": "mujer",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-38767207-10_1800x.jpg?v=1669639267"
+},
+{
+  "_id": {
+    "$oid": "65bb9af7bdeefee1a5dc04e3"
+  },
+  "nombre": "Puma4",
+  "genero": "mujer",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-38767208-11_1800x.jpg?v=1669639141"
+},
+{
+  "_id": {
+    "$oid": "65bb9b04bdeefee1a5dc04e4"
+  },
+  "nombre": "Puma5",
+  "genero": "mujer",
+  "valor": 64990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-39548105-1_1800x.jpg?v=1692205256"
+},
+{
+  "_id": {
+    "$oid": "65bb9b29bdeefee1a5dc04e5"
+  },
+  "nombre": "Vans1",
+  "genero": "mujer",
+  "valor": 56990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-VN0A7Q5M6BT-3_1800x.jpg?v=1667843985"
+},
+{
+  "_id": {
+    "$oid": "65bb9b3cbdeefee1a5dc04e6"
+  },
+  "nombre": "Vans2",
+  "genero": "mujer",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-VN0A7Q5MW00-1_1800x.jpg?v=1668695248"
+},
+{
+  "_id": {
+    "$oid": "65bb9b4cbdeefee1a5dc04e7"
+  },
+  "nombre": "Vans3",
+  "genero": "mujer",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-VN0A7Q5MTYQ-3_1800x.jpg?v=1667843853"
+},
+{
+  "_id": {
+    "$oid": "65bb9b6bbdeefee1a5dc04e8"
+  },
+  "nombre": "Vans4",
+  "genero": "mujer",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/products/p-VN0A7Q5MBKA-3_1800x.jpg?v=1667843871"
+},
+{
+  "_id": {
+    "$oid": "65bb9b79bdeefee1a5dc04e9"
+  },
+  "nombre": "Vans5",
+  "genero": "mujer",
+  "valor": 59990,
+  "img": "https://www.blockstore.cl/cdn/shop/files/p-VN0009PZLAE-1_1800x.jpg?v=1701956327"
+}]
